@@ -3,7 +3,7 @@
 Machine learning (ML) has revolutionized the way we approach data analysis, automation, and decision-making. With its ability to learn from data and improve over time, ML has become a crucial tool in various industries, from healthcare and finance to marketing and transportation. However, the success of ML models relies heavily on the quality and type of data used for training. In fact, the adage "garbage in, garbage out" is particularly relevant in ML, where poor data quality or incorrect dataset classification can lead to biased, inaccurate, or even harmful models.
 One of the fundamental steps in ML model development is understanding the type of dataset required for training. This involves classifying datasets into distinct categories, each with its unique characteristics, advantages, and challenges. In this article, we will delve into the world of ML datasets, exploring the differences between unsupervised, supervised, and reinforcement learning datasets. We will examine the characteristics of each dataset type, including unlabeled, and labeled (feature and output labeled) datasets, and discuss how they are used in various ML paradigms. By grasping these concepts, you will gain a deeper understanding of how to select, prepare, and utilize datasets for effective ML model training.
  
-![ML Data](./mldata.svg)
+![ML Data](.mldata.svg)
 
 Unsupervised Learning
 	Unsupervised learning is a type of machine learning where algorithms are trained on datasets without explicit labels or annotations. In this scenario, the model learns to identify patterns, relationships, and structure within the data on its own, without prior knowledge of the expected output. Unsupervised learning is particularly useful for:
