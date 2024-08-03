@@ -58,7 +58,7 @@ In online learning, the dataset is unlabeled, meaning that the output label is n
 The goal is to learn a policy π through value iteration, shown in the equation below, that maximizes cumulative rewards over time.
 
 $$
-V(s_t) = \max_{\pi} \left\{ R_t(s_t, a_t) + \gamma \mathbb{E} \left[ V(s_{t+1}) \mid s_t, a_t \right] \right\}
+V(s_t) = \max_{\pi} \left\{ R_t(s_t, a_t) + \gamma \mathbb{E} \left( V(s_{t+1}) \mid s_t, a_t \right) \right\}
 $$
 
 For example, consider an agent learning to play a game like chess or Go. The dataset would consist of game states, moves, and rewards (e.g., winning or losing). The environment (the game) provides feedback in the form of rewards, and the agent learns to make moves that maximize its chances of winning.
